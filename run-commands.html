@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Run Commands — TrackMyExpenses</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:40px;color:#222}
+    pre{background:#f6f8fa;padding:16px;border-radius:6px;overflow:auto}
+    h1{color:#0b5fff}
+    .note{margin-top:12px;color:#555}
+  </style>
+</head>
+<body>
+  <h1>Run Commands — TrackMyExpenses</h1>
+  <p>This file lists the commands to install dependencies and run the application.</p>
+
+  <h2>1. Install dependencies</h2>
+  <pre><code>npm install</code></pre>
+
+  <h2>2. Start the server</h2>
+  <p>Default (uses the `start` script defined in <strong>package.json</strong>):</p>
+  <pre><code>npm start</code></pre>
+  <p>Or explicitly with Node:</p>
+  <pre><code>node server/server.js</code></pre>
+
+  <h2>3. Development (same as start)</h2>
+  <pre><code>npm run dev</code></pre>
+
+  <h2>4. Set a custom port (PowerShell)</h2>
+  <pre><code>$env:PORT=4000
+npm start</code></pre>
+
+  <h2>5. Quick verification</h2>
+  <pre><code>curl http://localhost:3000/</code></pre>
+
+  <div class="note">
+    <strong>Note:</strong> Ensure you have Node.js installed on your system to run these commands. You can download it from <a href="https://nodejs.org/">https://nodejs.org/</a>.
+  </div>
+</body>
+</html>
